@@ -1,0 +1,57 @@
+<style>
+tbody{
+  padding-left: 1cm;
+  padding-right: 1cm;
+  color:black;
+
+  }
+
+ul.topnav {
+position: fixed;
+z-index: 999;
+top: 0;
+width: 100%;
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: block;
+overflow: hidden;
+background-color: darkblue;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: blue;}
+
+ul.topnav li a.active {background-color: blue;}
+
+ul.topnav li.right {float: right;}
+
+
+body{
+    padding-top: 2cm;
+    color:black;
+    background-color: #BDB8B2;
+    }
+
+
+    @media (max-width: 786px) {
+      .navbar-fixed-top {
+        position: relative;
+        top: auto;
+      }
+      .navbar-collapse {
+        max-height: none;
+      }
+      body {
+        margin: 0;
+      }
+    </style>
